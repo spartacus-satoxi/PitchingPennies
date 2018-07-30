@@ -60,6 +60,7 @@ Call 'gameTargetBlock' to see what is the target block of the specified game.
 Call 'howMuchToToss' to see the amount that each player should toss in the specified game.
 
 \- if the specified game Id does not exist the transaction will fail.
+
 ICO Details:
 
 As explained before if you hit the wall (toss transaction appear after the target block), you will be participating in the ICO.
