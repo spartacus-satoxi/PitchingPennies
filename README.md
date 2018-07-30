@@ -20,16 +20,21 @@ Call 'newGame' function of the contract to creat a new pitch n toss game:
 \- specify a target block number (this will be the wall, whoever tosses the Ether closest to this block will win)
 
 \- specify the amount of which everyone should toss in this game (the unit is milliEther so if you enter 1 it will be 0.001 Ether)
+
 General Hints:
 
 \- if your chosen gameID is not unique the transaction will fail, a good hint to keep it unique would be to include the targetblock as part of the gameID you choose (Example: "BigBobsGameAt6998276")
 
 \- your chosen gameID should be in double qoutes  (" ").
+
+
 Call 'toss' function of the contract to toss (throw) Ether in a game.
 
 \- specify the ID of the game to which you want to throw.
 
 \- set the value of the transaction to the exact amount of the specified game. (Example: if the game is on 1 miliEther set the value to 0.001 Ether)
+
+
 General Hints:
 
 \- if the specified game Id does not exist the transaction will fail.
@@ -41,6 +46,8 @@ General Hints:
 \- the transaction which has the nearest block number to the game target block will win. If your transaction pass the target block, it will be considered ICO participation (see ICO section of this manual for details).
 
 \- if there are multiple winners the award will be distributed among them.
+
+
 Call 'claim' function of the smart contract after game finishes (anytime after target block) to claim your reward (in case you won)
 
 Call 'claim' function of the smart contract after ICO distribution period finishes (every 2100 blocks) to claim your satoxi (stxi) tokens.
@@ -54,12 +61,18 @@ General Hints:
 \- if you hit the ICO and call 'claim' before the ICO distribution period ends, the transaction will fail.
 
 \- if the transaction did not fail and you have not received any Ether or Token then you must have been one of the loosers in the game.
+
+
 Call 'gameTargetBlock' to see what is the target block of the specified game.
 
 \- if the specified game Id does not exist the transaction will fail.
+
+
 Call 'howMuchToToss' to see the amount that each player should toss in the specified game.
 
 \- if the specified game Id does not exist the transaction will fail.
+
+
 
 ICO Details:
 
