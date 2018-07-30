@@ -87,6 +87,8 @@ General Hints:
 \-call 'totalIcoContribution' to see the total contribution of any specified distribution period.
 
  Example: to see the total contribution of current distribution period sofar, enter <current\_block\_number>/2100 (integer division)
+ 
+ 
 Token Utilities:
 
 As mentioned before in order to toss more than 49 milliEther you need to have certain balance of satoxi tokens (will not be spent, just need the balance)
@@ -117,7 +119,7 @@ Satoxi Balance	--> Ether to Toss (milli Ether)
 
 1,024,000	--> Unlimited
 
-In addition to what described above satoxi will be the utility token of many more exciting DAPs that will be developed by us in future. We've got the ideas, we've got the creativity, we've got the ability. We say those DAPs will be as cool and you don't need a meaningless whitepaper! (For the DAPs that we will develop on blockchains other than Ethereum 1:1 equivalents will be issued.)
+In addition to what described above satoxi will be the utility token of many more exciting DAPPs that will be developed by us in future. We've got the ideas, we've got the creativity, we've got the ability. We say those DAPPs will be as cool and you don't need a meaningless whitepaper! (For the DAPPs that we will develop on blockchains other than Ethereum 1:1 equivalents will be issued.)
 
 ------------------------------
 
